@@ -1,0 +1,52 @@
+body{
+    background-color: lightblue;
+    cursor: default;
+}
+.board {
+    border: 5px solid black;
+    height: 630px;
+    width: 600px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+input[type="text"] {
+    height: inherit;
+    width: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    caret-color: transparent;
+    color: transparent;
+    margin-top: -25px;
+    border-radius: 10px;
+    border:0px;
+}
+
+.card {
+    float: left;
+    border: 1px solid black;
+    width: 100px;
+    margin: 9px;
+    height: 138px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-image: url(image052.jpg);
+    background-size: contain;
+    font-size: 70px;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px 2px midnightblue;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: -2px;
+    font-family: monospace;
+    color: black;
+}
+#moves{
+    font-size: 30px;
+    font-family: monospace;
+}
